@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "baseUrl": ".",
+        "paths": { "@/*": ["src/*"] },
+        "checkJs": false, // 显式关闭 JS 类型检查
+        "noCheck": true   // 彻底禁用 TS 对 JS 文件的检查
+    },
+    "exclude": ["node_modules", "dist"]
+}
